@@ -18,11 +18,12 @@ A lightweight **Retrieval-Augmented Generation (RAG)** based Q&A chatbot that in
 
 ## 📂 Folder Structure
 Assignment 8/
-├── app.py # Streamlit main app
-├── rag_utils.py # RAG logic: retrieval & generation
-├── Training Dataset.csv # Source data for loan-related questions
-├── requirements.txt # App dependencies
-└── README.md # Project documentation
+├── app.py                 # Streamlit main app
+├── rag_utils.py           # RAG logic: retrieval & generation
+├── Training Dataset.csv   # Source data for loan-related questions
+├── requirements.txt       # App dependencies
+└── README.md              # Project documentation
+
 
 
 ---
