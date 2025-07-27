@@ -17,4 +17,36 @@ A lightweight **Retrieval-Augmented Generation (RAG)** based Q&A chatbot that in
 ---
 
 ## 📂 Folder Structure
+Assignment 8/
+├── app.py # Streamlit main app
+├── rag_utils.py # RAG logic: retrieval & generation
+├── Training Dataset.csv # Source data for loan-related questions
+├── requirements.txt # App dependencies
+└── README.md # Project documentation
+
+
+---
+
+## 📊 Dataset
+
+- **Source**: [Loan Approval Prediction Dataset - Kaggle](https://www.kaggle.com/datasets/sonalisingh1411/loan-approval-prediction)
+- **File Used**: `Training Dataset.csv`
+
+---
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/mansi12bendale/rag-loan-chatbot.git
+cd rag-loan-chatbot
+python -m venv venv
+# Activate virtual environment:
+# On Windows:
+venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
+
+pip install -r requirements.txt
+streamlit run app.py
+
 
