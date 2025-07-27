@@ -15,14 +15,21 @@ A lightweight **Retrieval-Augmented Generation (RAG)** based Q&A chatbot that in
 - 📁 Small app size (<5MB) optimized for fast deployment.
 
 ---
-
 ## 📂 Folder Structure
+
+<details>
+<summary>Click to expand</summary>
+
+```
 Assignment 8/
 ├── app.py                 # Streamlit main app
 ├── rag_utils.py           # RAG logic: retrieval & generation
 ├── Training Dataset.csv   # Source data for loan-related questions
 ├── requirements.txt       # App dependencies
 └── README.md              # Project documentation
+```
+
+</details>
 
 
 
